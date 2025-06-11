@@ -1,0 +1,18 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Env
+.env
+.venv/
+venv/
+
+# Data
+# ignore pickle files except those in models/
+*.pkl
+!models/*.pkl
+
+# IDE/editor
+.vscode/
+.idea/
